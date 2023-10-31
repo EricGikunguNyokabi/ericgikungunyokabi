@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head >
+	<meta encoding="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>E . G . N</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+		
+
+<body>
+	<section class="header">
+		<nav>
+			<a  class="logo"> 
+			<h2>E . G . N </h2>
+			</a>
+			<div class="nav-links" id="nav-Links">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+
+				<ul>
+					<li><a href="index.html">HOME </a></li>
+					<li><a href="mybiography.html"> MY BIOGRAPHY </a></li>
+					<li><a href="mycalender.html"> MY CALENDER </a></li>
+					<li><a href="trading.html"> TRADING </a></li>
+						<div class="sub-menu-1">
+							<li><a href="file:///G:/Programming/My%20Biography%20Documentary/trading/mytradingjourney.html"> TRADING-JOURNEY </a></li>
+							<li><a href="file:///G:/Programming/My%20Biography%20Documentary/trading/mytradingjournal.html"> TRADING-JOURNAL </a></li>
+							<li><a href="file:///G:/Programming/My%20Biography%20Documentary/trading/psychologyoftrading.html"> PSYCHOLOGY-OF-TRADING </a></li>
+							<li><a href="file:///G:/Programming/My%20Biography%20Documentary/trading/myriskrewardratiorule.html"> RISK-REWARD-RATIO-RULE </a></li>
+							<li><a href="file:///G:/Programming/My%20Biography%20Documentary/trading/mytradingstrategies.html"> TRADING-STRATEGIES </a></li>
+						</div>
+					<li><a href="goals.html"> GOALS </a></li>
+					<li><a href="onlinemoney.html"> ONLINE-MONEY </a></li>
+					<li><a href="contacteric.html"> CONTACT ERIC </a></li>
+				</ul>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+
+		</nav>
+		
+		<div class="text-box">
+			<h1>Eric Gikungu Nyokabi</h1>
+			<br>
+				<p>Welcome to the homepage of Eric Gikungu Nyokabi, a resilient individual with a passion for excellence and drive to make a difference.<br> 
+				Born and raised in Kenya, Eric's journey is one of perseverance and determination. From his outstanding academic achievements in primary and 
+				secondary school to earning a Bachelor's degree in Statistics and Programming from Machakos University. <br>
+				Eric has consistently demonstrated his commitment to personal growth and learning.<br>
+				Despite facing challenges along the way, he remains focused on realizing his aspirations and making a positive impact. 
+				
+				</p>
+				<br>
+				Explore Eric's inspiring biography and join him on his quest for success.
+			<br> <br>
+			<a href="contacteric.html" class="hero-btn">Click here to Contact Eric</a>
+		</div>
+		
+	</section>
+
+<!--- JavaScript for Toggle Menu --->	
+	<script>
+		var navLinks = document.getElementById("navLinks")
+		
+		function showMenu(){
+			navLinks.style.right ="0";
+		}
+		function hideMenu(){
+			navLinks.style.right ="-200px";
+		}
+	</script>
+
+
+
+	
+		
+</body>
+</html>
